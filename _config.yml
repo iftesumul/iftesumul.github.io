@@ -1,0 +1,37 @@
+# Site settings
+name: Iftesum Ul Bashri
+email: iftesum.ul@gmail.com
+title: Iftesum Ul Bashri Resume
+url: "" # Set to your GitHub Pages URL if deploying
+baseurl: "" # e.g. /indigo-resume if in a subfolder
+
+# Build settings
+theme: jekyll-theme-indigo
+markdown: kramdown
+
+# Navigation
+nav:
+  - title: "Resume"
+    url: /resume/
+  - title: "Project"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/
+  - title: "About Me"
+    url: /about/
+
+# Social
+github: errorx50
+linkedin: iftesum
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
