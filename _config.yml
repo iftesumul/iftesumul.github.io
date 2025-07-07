@@ -6,7 +6,8 @@ url: "" # Set to your GitHub Pages URL if deploying
 baseurl: "" # e.g. /indigo-resume if in a subfolder
 
 # Build settings
-theme: jekyll-theme-indigo
+# Using Indigo as a local theme (files must be present in the project folder)
+# theme: jekyll-theme-indigo  # <-- Do not use this line for Indigo theme
 markdown: kramdown
 
 # Navigation
@@ -21,7 +22,7 @@ nav:
     url: /about/
 
 # Social
-github: errorx50
+github: iftesumul
 linkedin: iftesum
 
 # Plugins
